@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1792553759 source:d:\1\shigejiajianfa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
