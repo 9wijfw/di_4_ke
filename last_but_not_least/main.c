@@ -3,26 +3,25 @@
 #include <time.h>
 int main(void)
 {
-    int a,b,c,d,e;
+    int a,b,c,d,e=0;
     srand((unsigned)time(NULL));
     for (int i=0;i<10;i += 1)
     {
         a = rand()%100;
         b = rand()%100;
         c = a+b;
-        printf("%d + %d ÇëÊäÈëÄãµÄ½á¹û",a,b);
+        printf("%d + %d è¯·è¾“å…¥ä½ çš„ç»“æžœ",a,b);
         scanf("%d",&d);
         if (c == d)
         {
             printf("right\n");
-            e += 10£»
+            e += 10;
         }
         else
         {
-            printf("wrong,key is %d\n",e)£»
-            e += 0£»
-
+            printf("wrong,key is %d\n",c);
+            //e += 0;
         }
     }
-    printf("´ð¶ÔÁË%dÌâÄ¿",e/10);
+    printf("ç­”å¯¹äº†%dé¢˜ç›®",e/10);
 }
