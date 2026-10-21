@@ -18,6 +18,6 @@ int main()
 import random as r
 a = []
 for i in range(10):
-    a.append(r.choice(1,100))
+    a.append(r.randint(1,100))
 print(a)
 */
